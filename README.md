@@ -1,4 +1,4 @@
-# vite-plugin-babel-macros
+# @jfornies/vite-plugin-babel-macros
 
 Use [babel macros](https://github.com/kentcdodds/babel-plugin-macros) in your [Vite](https://vitejs.dev) project!
 
