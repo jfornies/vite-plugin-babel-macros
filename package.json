@@ -29,7 +29,7 @@
     "ci": "yarn clean:root && yarn",
     "semantic-release": "semantic-release",
     "postversion": "git commit -am 'chore(bump): bump version [skip-ci]' && git push --follow-tags",
-    "prepare": "is-ci || husky install",
+    "postinstall": "is-ci || husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable"
   },
